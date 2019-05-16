@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ListarProjetosServlet</servlet-name>
+        <servlet-class>br.edu.ifgoiano.siiipora.controllerws.siirioverde.ListarProjetosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarAlunosServlet</servlet-name>
+        <servlet-class>br.edu.ifgoiano.siiipora.controllerws.siirioverde.ListarAlunosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarProfessoresServlet</servlet-name>
+        <servlet-class>br.edu.ifgoiano.siiipora.controllerws.siirioverde.ListarProfessoresServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarAlunosProjetosServlet</servlet-name>
+        <servlet-class>br.edu.ifgoiano.siiipora.controllerws.siirioverde.ListarAlunosProjetosServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListarProjetosServlet</servlet-name>
+        <url-pattern>/ListarProjetosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarAlunosServlet</servlet-name>
+        <url-pattern>/ListarAlunosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarProfessoresServlet</servlet-name>
+        <url-pattern>/ListarProfessoresServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarAlunosProjetosServlet</servlet-name>
+        <url-pattern>/ListarAlunosProjetosServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

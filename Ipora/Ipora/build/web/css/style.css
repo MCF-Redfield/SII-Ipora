@@ -1,0 +1,29 @@
+
+figure, figcaption{
+	margin: 0px;
+}
+
+.social li a{
+	height: 28px;
+	width: 28px;
+
+	display: block;
+	text-indent: -9999px;
+	/*float: left;*/
+	/*margin-left: 25px;*/
+}
+
+.social{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.social a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+}
+
+.social li{
+	float: left;
+	margin-left: 0px;
+}
